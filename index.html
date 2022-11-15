@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="theme-color" content="#009578">
+        <title>PWA</title>
+        <link rel="stylesheet" href="src/master.css">
+        <link rel="manifest" href="manifest.json">
+        <link rel="apple-touch-icon" href="images/laundry192.png">
+    </head>
+    <body>
+        <h1>LAUNDRY WILDAN JAYA</h1>
+        <br>
+        <h2>INPUT BARANG</h2>
+        <div>
+        <label for="laundry">Laundry :</label>
+        <select name="baju,celana,selimut" id="laundry">
+            <option value="baju">Baju</option>
+            <option value="celana">Celana</option>
+            <option value="selimut">Selimut</option><br>
+        </select>
+        </div>
+        <div>
+        <label for="barang">Jumlah Barang :</label>
+        <input type="number" id="barang"></input>
+        </div>
+
+        <input type="submit" value="submit">
+
+        <label>Total</label>
+        <textarea class="textarea" id="total"></textarea><br> 
+
+        <script src="src/index.js"></script>
+    </body>
+</html>
